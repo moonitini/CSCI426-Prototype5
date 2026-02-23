@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2406914973452559563}
   - component: {fileID: -4910322820812435400}
+  - component: {fileID: 7635447761246767746}
   m_Layer: 0
   m_Name: Statue
   m_TagString: Untagged
@@ -91,3 +92,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &7635447761246767746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479618388036643563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2780cd83971b5417ca71efa7b028ffe9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AngelStatue
+  requiredExposureSeconds: 3
+  tileSize: 1
+  killDistanceTiles: 1
+  onlyMoveHorizontally: 1
